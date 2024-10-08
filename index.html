@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="contenido-player">
+
+        <img src="" alt="cover" class="cover">
+        <div class="contenido-music">
+            <h2 class="music-name"></h2>
+            <p class="singer"></p>
+        </div>
+
+        <div class="contenido-progress">
+            <span class="time current">0:00</span>
+            <span class="time end-time">0:00</span>
+            <div class="contenido-bar">
+                <div class="now-bar"></div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <div class="btns">
+                <img src="./assets/Stop_and_play_fill-1.svg" alt="last" class="previous">
+            </div>
+            <div class="btn-play btns">
+                <img src="./assets/Play_fill.svg" alt="play" class="play-paused">
+            </div>
+            <div class="btns">
+                <img src="./assets/Stop_and_play_fill_reverse.svg" alt="next" class="next">
+            </div>
+        </div>
+
+        <audio controls class="song" src="" type="audio/mpeg"></audio>
+    </div>
+    <script src="./script.js"></script>
+    <script type="module" src="./mucicArray.js"></script>
+</body>
+
+</html>
